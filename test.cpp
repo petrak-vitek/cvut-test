@@ -19,6 +19,6 @@ int main() {
 
     // Výpis výsledku na obrazovku
     std::cout << "Součet je: " << vysledek << std::endl;
-
+    std::cout << "Součet je: " << cislo1 * cislo2  << std::endl;
     return 0;
 }
