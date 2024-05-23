@@ -1,0 +1,6 @@
+můj repozitář
+https://github.com/petrak-vitek/cvut-test
+
+repoziztáře s pull reqesty
+https://github.com/krakenek/UkolRepo/pulls
+https://github.com/MautnerVo/test
