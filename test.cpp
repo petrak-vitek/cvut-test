@@ -5,6 +5,10 @@ int scitani(int a, int b) {
     return a + b;
 }
 
+int deleni(int a, int b) {
+    return a / b;
+}
+
 int main() {
     int cislo1, cislo2, vysledek;
 
@@ -15,10 +19,10 @@ int main() {
     std::cin >> cislo2;
 
     // Volání funkce pro sečtení čísel
-    vysledek = scitani(cislo1, cislo2);
+    vysledek = deleni(cislo1, cislo2);
 
     // Výpis výsledku na obrazovku
-    std::cout << "Součet je: " << vysledek << std::endl;
-    std::cout << "Součet je: " << cislo1 * cislo2  << std::endl;
+    std::cout << "Podíl je: " << vysledek << std::endl;
+    std::cout << "Součin je: " << cislo1 * cislo2  << std::endl;
     return 0;
 }
