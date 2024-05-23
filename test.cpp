@@ -19,7 +19,9 @@ int main() {
     std::cin >> cislo2;
 
     // Volání funkce pro sečtení čísel
+
     vysledek = deleni(cislo1, cislo2);
+
 
     // Výpis výsledku na obrazovku
     std::cout << "Podíl je: " << vysledek << std::endl;
