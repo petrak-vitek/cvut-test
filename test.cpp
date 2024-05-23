@@ -15,7 +15,7 @@ int main() {
     std::cin >> cislo2;
 
     // Volání funkce pro sečtení čísel
-    vysledek = scitani(cislo1, cislo2);
+    vysledek = cislo1+cislo2;
 
     // Výpis výsledku na obrazovku
     std::cout << "Součet je: " << vysledek << std::endl;
